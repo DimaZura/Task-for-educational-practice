@@ -3,4 +3,6 @@ project(Task_for_educational_practice)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Task_for_educational_practice main.cpp)
+add_executable(Task_for_educational_practice main.cpp
+        internal/Graph/Graph.cpp
+        internal/Graph/Graph.h)
